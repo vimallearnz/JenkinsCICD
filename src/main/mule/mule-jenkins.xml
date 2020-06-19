@@ -11,7 +11,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener doc:name="Listener" doc:id="59fc2d41-4204-41bd-8665-ba37a1f2db29" config-ref="HTTP_Listener_config" path="/jenkins"/>
 		<set-payload value='#[{
 	"status":"success",
-	"message":"Happy CI CD"
+	"message":"My First CI CD"
 }]' doc:name="Set Payload" doc:id="5ae6b2c1-0974-4fe4-afda-dd3bc621e8b6" />
 	</flow>
 </mule>
